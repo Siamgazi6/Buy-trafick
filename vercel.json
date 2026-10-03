@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "http://gfhfghgfh5356.vercel.app/",
+      "permanent": true
+    }
+  ]
+}
