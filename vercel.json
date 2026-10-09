@@ -1,10 +1,1 @@
-module.exports = (req, res) => {
-  const destination = "https://example.com";
-
-  res.writeHead(302, {
-    Location: destination,
-    "Cache-Control": "no-store"
-  });
-
-  res.end();
-};
+{ "redirects": [ { "source": "/(.*)", "destination": "https://blogverse.flazora.com/blog/how-to-improve-your-business-credit-score-and-qualify-for-better-financing", "permanent": true } ] }
