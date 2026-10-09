@@ -1,11 +1,4 @@
-[10/9/2026 9:32 PM] PARVES: // Source - https://stackoverflow.com/q/17150171
-// Posted by Gaurav Pant, modified by community. See post 'Timeline' for change history
-// Retrieved 2026-10-09, License - CC BY-SA 3.0
-
-$(window).load(function() {
-               window.setTimeout(window.location.href = "https://www.google.co.in",5000);
-            });
-[10/9/2026 9:35 PM] PARVES: module.exports = (req, res) => {
+module.exports = (req, res) => {
   const destination = "https://example.com";
 
   res.writeHead(302, {
