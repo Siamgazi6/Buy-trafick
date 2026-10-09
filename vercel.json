@@ -1,9 +1,7 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://blogverse.flazora.com/blog/how-to-improve-your-business-credit-score-and-qualify-for-better-financing",
-      "permanent": true
-    }
-  ]
-}
+// Source - https://stackoverflow.com/q/17150171
+// Posted by Gaurav Pant, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-10-09, License - CC BY-SA 3.0
+
+$(window).load(function() {
+               window.setTimeout(window.location.href = "https://www.google.co.in",5000);
+            });
